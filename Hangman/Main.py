@@ -5,7 +5,7 @@ import printy
 try:
     wordsfile=open("RandomWords" , "r")
 except:
-    print("file not found")
+    print("file not found \n Please download RandomWords.txt file")
 global listofwords,wordtobeguessed,guessedword,lettersguessed,wordsguessed,tries,guessed,gameon
 listofwords=wordsfile.readlines()
 for i in range(len(listofwords)):
